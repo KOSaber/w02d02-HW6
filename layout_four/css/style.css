@@ -1,5 +1,5 @@
 * {
-    background-color: #FFF2F2;
+    /* background-color: rgb(186, 217, 235); */
 }
 
 .bigcontainer{
@@ -17,6 +17,7 @@
         border: 5px solid;
         border-radius: 15px;
         border-color: rgb(74, 104, 124) ;
+        background-color: rgba(191, 217, 231,0.3);
         
     }
     #personalphoto{
@@ -24,7 +25,7 @@
         padding: 1px;
         margin: 10px;
         border: 5px solid;
-        border-color: rgb(74, 104, 124)
+        border-color: rgb(74, 104, 124);
     }
     #navcont{
     	display: flex;
@@ -33,14 +34,14 @@
     }
     .photocontainer{
         display: flex;
-        margin-left: 40px;
+        justify-content: center;
         
     }
     .photocontainer > img {
       width: 150px;
       height: 150px;
       justify-self: center;
-       justify-content: space-around; 
+      justify-content: space-around; 
       padding: 10px;
     }
     .flex-container{
@@ -59,23 +60,23 @@
     }
     a{
         font-family: "Raleway", sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight:600;
         margin: 0px 20px;
         border-bottom: 2px solid transparent;
-        color: green;
+        color: rgb(20, 33, 66);
         text-decoration: none;
+        background-color: rgba(253, 255, 254, 0);
         }
     a:hover{
-            border-color: white;
+            border-color: rgb(178, 193, 197);
         }
     h1{
-        font-family: "Raleway", sans-serif;
+        font-family: sans-serif;
         font-style: bold;
-        text-decoration: underline;
         font-weight:600;
         color: #0d2c40;
-        margin-left: 85px;
+        margin-left: 30%;
         
         }
     p{
@@ -85,7 +86,7 @@
     button{
         margin: 16px;
         border-radius: 25px;
-    	background-color: rgba(232, 240, 238, 0.316);
+    	background-color: rgba(128, 137, 141, 0.1);
     }
     blockquote {
     font-family: "Droid Serif", serif;
@@ -98,17 +99,13 @@
         background-color: #f1f1f1d7;
         color: #ffffff;
     }
-    /* body{
-         margin: 0px 2%; 
-            margin:0;
-            background-color: #FFFF2;
-            text-align: center;
-    } */
+  
     main{
-        width: 90%;
-        margin: 0px 5%;
+        width: 99%;
+        margin: 0px .5%;
         margin-bottom: 10px;
-        background-color: #FFFFFF;
+        background-color: rgba(191, 217, 231,0.3);
+        border-radius: 3px;
     }
     #footer .message span {
         
@@ -124,6 +121,7 @@
         font-size: 14px;
         letter-spacing: .08em;
         font-weight: 500;
+        border-radius: 5px;
     }
     
     footer> div,p{
@@ -146,7 +144,7 @@
         font-family: "Raleway";
         text-align: center;
         background-color: rgb(74, 104, 124);
-        width: 100%;
+        width: 98%;
     }
     #contact>p{
         background-color: rgb(74, 104, 124);    
@@ -155,12 +153,13 @@
     #footer{
 
     	display: flex;
-    	width: 100%;
+    	width: 98%;
     	justify-content: space-between;
 
     }
     img{
         background-color: rgba(212, 240, 243, 0.68);
+        border-radius: 10px;
     }
     #linkedin{
         color: white;
